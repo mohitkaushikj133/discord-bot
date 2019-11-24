@@ -29,7 +29,7 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith('!help')) {
-        msg.reply('\n\n Discord Bot is in your service. \n\n' +  'These commands are supported - \n\n **!google** [query] \n\n **!recent** ?[query] \n\n **!help** \n\n');
+        msg.reply('\n\n Discord Bot is in your service. \n\n' +  'Commands supported by bot are  - \n\n **!google** ..query \n\n **!recent** ..query \n\n **!help** \n\n');
         return;
     }
 
